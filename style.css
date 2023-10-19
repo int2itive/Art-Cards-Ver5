@@ -183,6 +183,7 @@ h4 {
 .wrapper {
   position: relative;
   width: 100%;
+  width: calc(100% - 1rem);
 /*   border-top-left-radius: 8px;
   border-top-right-radius: 8px; */
 /*   border: 1px solid #fff; */
