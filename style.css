@@ -455,7 +455,7 @@ h4 {
   position: absolute;
   display: block;
   bottom: 10px;
-  right: 5px;
+  right: 25px;
   height: 25px;
   width: 25px;
 }
@@ -600,5 +600,9 @@ h4 {
   
   .artist_bio_wrapper > p:last-f-type {
     margin-bottom: 2rem;
-  }  
+  }
+  
+  .artist_bio_wrapper > .rbg_logo__wrapper {
+    right: 10px;
+  }
 }
