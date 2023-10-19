@@ -220,7 +220,7 @@ h4 {
   background: linear-gradient(0deg,#191c21 0,rgba(0,0,0,.8) 10%,rgba(25,28,33,0) 55%) 80% no-repeat;
    background: linear-gradient(
     to top,
-    #000 9%,
+    #000 6%,
     transparent max(20%, 20vw)
   );
 /*    hsla(0, 0%, 35.29%, 0) 0%,
