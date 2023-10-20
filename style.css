@@ -453,12 +453,6 @@ h4 {
   width: 25px;
 }
 
-.artist_bio_wrapper .rbg_logo__wrapper img {
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
-
 .artist_display__meta {
   position: absolute;
   width: 100%;
@@ -475,7 +469,7 @@ h4 {
   position: relative;
   justify-self: end;
   color: #c0c0c0;
-  padding-right: 1.4em;
+  padding-right: .6rem;
   letter-spacing: 0.1em;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -502,14 +496,14 @@ h4 {
   bottom: 0;
   right: calc(25% + 2px);
   right: 0.55em;
-  right: 1.675rem;
+  right: .7rem;
 }
 .artist_display__meta > p {
   justify-self: end;
   color: #b26422;
   transform: translateY(3px);
   padding-right: 0.9em;
-  padding-right: 1.675rem;
+  padding-right: .7rem;
   font-size: .75em;
 /*   border: 1px solid white; */
 }
@@ -551,6 +545,9 @@ h4 {
   /*  z-index: -1; */
   }
 
+  .artist_img_cont {
+    padding: 0;
+  }
   .artist_display__meta {
     position: absolute;
     width: 200%;
