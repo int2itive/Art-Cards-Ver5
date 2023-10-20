@@ -477,7 +477,7 @@ h4 {
   position: relative;
   justify-self: end;
   color: #c0c0c0;
-  padding-right: 1.5rem;
+  padding-right: 1.65rem;
   letter-spacing: 0.1em;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -504,14 +504,14 @@ h4 {
   bottom: 0;
   right: calc(25% + 2px);
   right: 0.55em;
-  right: 1.7rem;
+  right: 1.76rem;
 }
 .artist_display__meta > p {
   justify-self: end;
   color: #b26422;
   transform: translateY(3px);
   padding-right: 0.9em;
-  padding-right: 1.7rem;
+  padding-right: 1.76rem;
   font-size: .75em;
 /*   border: 1px solid white; */
 }
