@@ -453,6 +453,13 @@ h4 {
   width: 25px;
 }
 
+
+.artist_bio_wrapper .rbg_logo__wrapper img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
 .artist_display__meta {
   position: absolute;
   width: 100%;
