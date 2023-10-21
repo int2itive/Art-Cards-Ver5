@@ -372,95 +372,6 @@ h4 {
   ); */
 }
 
-.artist_bio_wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 1.75em 2em;
-  font-family: 'Oswald', sans-serif;
-/*   font-family: 'Roboto Condensed'; */
-  font-size: .95em;
-  font-weight: 500;
-  letter-spacing: 0.020em;
-  text-shadow: 2px 2px 6px #888;
-  background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/media/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
-  background-position: center center;
-  background-size: 300%;
-  background-repeat: no-repeat;
-  color: #c0c0c0;
-/*   filter: blur(4px); */
-/*   border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px; */
-/*   border: 1px solid white; */
-}
-
-.artist_bio_wrappar::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.artist_bio_wrapper > blockquote {
-  position: relative;
-  margin-bottom: 1em;
-  text-align: right;
-  align-self: flex-end;
-  font-family: 'Bungee';
-  font-size: .85em;
-  line-height: 1;
-  width: 140px;
-/*   transform: translateX(1rem); */
-  margin-bottom: 1em;
-  border-bottom: 3px solid rgba(178,100,34, 0.6);
-}
-
-.artist_bio_wrapper > blockquote:first-of-type::before {
-  position: absolute;
-  content: "\201C";
-  left: -1px;
-  top: -20px;
-  font-size: 72px;
-  opacity: .4;
-/*   rotate: 180deg; */
-}
-
-.artist_bio_wrapper p {
-  position: relative;
-  margin-bottom: 1em;
-  z-index: 5;
-  line-height: 1.3;
- has been inseted as a test fo review purposes. */
-/*   box-shadow: 0 1px 2px rgba(250,250,250,0.07), 
-              0 2px 4px rgba(250,250,250,0.07), 
-              0 4px 8px rgba(250,250,250,0.07), 
-              0 8px 16px rgba(250,250,250,0.07),
-                0 16px 32px rgba(250,250,250,0.07), 
-                0 32px 64px rgba(250,250,250,0.07);   */
-}
-
-.artist_bio_wrapper p:last-of-type {
-  margin-bottom: 2rem;
-}
-
-.artist_bio_wrapper > .rbg_logo__wrapper {
-  position: absolute;
-  display: block;
-  bottom: 10px;
-  right: 25px;
-  height: 25px;
-  width: 25px;
-}
-
-
-.artist_bio_wrapper .rbg_logo__wrapper img {
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
-
 .artist_display__meta {
   position: absolute;
   width: 100%;
@@ -514,6 +425,95 @@ h4 {
   padding-right: 1.76rem;
   font-size: .75em;
 /*   border: 1px solid white; */
+}
+
+.artist_bio_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.75em 2em;
+  font-family: 'Oswald', sans-serif;
+/*   font-family: 'Roboto Condensed'; */
+  font-size: .95em;
+  font-weight: 500;
+  letter-spacing: 0.020em;
+  background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/media/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
+  background-position: center center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+  color: #c0c0c0;
+/*   filter: blur(4px); */
+/*   border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
+/*   border: 1px solid white; */
+}
+
+.artist_bio_wrappar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.artist_bio_wrapper > blockquote {
+  position: relative;
+  margin-bottom: 1em;
+  text-align: right;
+  align-self: flex-end;
+  font-family: 'Bungee';
+  font-size: .85em;
+  line-height: 1;
+  width: 140px;
+/*   transform: translateX(1rem); */
+  margin-bottom: 1em;
+  border-bottom: 3px solid rgba(178,100,34, 0.6);
+}
+
+.artist_bio_wrapper > blockquote:first-of-type::before {
+  position: absolute;
+  content: "\201C";
+  left: -1px;
+  top: -20px;
+  font-size: 72px;
+  opacity: .4;
+/*   rotate: 180deg; */
+}
+
+.artist_bio_wrapper p {
+  position: relative;
+  margin-bottom: 1em;
+  z-index: 5;
+  line-height: 1.3;
+  text-shadow: 2px 2px 6px #888;
+/* has been inseted as a test fo review purposes. */
+/*   box-shadow: 0 1px 2px rgba(250,250,250,0.07), 
+              0 2px 4px rgba(250,250,250,0.07), 
+              0 4px 8px rgba(250,250,250,0.07), 
+              0 8px 16px rgba(250,250,250,0.07),
+                0 16px 32px rgba(250,250,250,0.07), 
+                0 32px 64px rgba(250,250,250,0.07);   */
+}
+
+.artist_bio_wrapper p:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.artist_bio_wrapper > .rbg_logo__wrapper {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  right: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+
+.artist_bio_wrapper .rbg_logo__wrapper img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
 }
 
 @media (min-width: 32rem) {
