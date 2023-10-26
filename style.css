@@ -53,8 +53,8 @@ h4 {
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+/*   border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
 /*  margin-bottom: 1.5em;*/
   background: url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/c0v-members/tumblr-b8c5fe832c6001adf4361759c04160e6-12e4607c-1280_BVCmbaZPgJ.jpg') center -20px / cover no-repeat;
 }
@@ -589,6 +589,7 @@ h4 {
   
   .artist_bio_wrapper {
     border-top-right-radius: 8px;
+    border-top-left-radius: 0;
     border-bottom-right-radius: 8px;
   }
 
