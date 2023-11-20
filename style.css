@@ -444,6 +444,7 @@ h4 {
   color: #c0c0c0;
   border-top-right-radius: 14px;
   border-top-left-radius: 14px;
+  overflow: hidden;
 /*   filter: blur(4px); */
 /*   
   border-bottom-right-radius: 8px; */
