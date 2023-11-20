@@ -538,6 +538,7 @@ h4 {
 @media (min-width: 32rem) {
   .artist_display__card {
     flex-direction: row;
+    aspect-ratio: 16/9;
   }
 
   .artist_img_wrapper, .artist_bio_wrapper {
