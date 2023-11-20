@@ -433,7 +433,7 @@ h4 {
   color: #c0c0c0;
   border-top-right-radius: 14px;
   border-top-left-radius: 14px;
-  /* overflow: hidden; */
+  overflow: hidden;
 /*   filter: blur(4px); */
 /*   
   border-bottom-right-radius: 8px; */
@@ -598,6 +598,7 @@ h4 {
     border-top-right-radius: 8px;
     border-top-left-radius: 0;
     border-bottom-right-radius: 8px;
+    overflow: visible;
   }
 
   .artist_bio_wrapper > blockquote {
