@@ -25,8 +25,6 @@ body {
 }
 
 h2 {
-/*   font-family: 'Bebas Neue', sans-serif; */
-/*   font-family: "bebas-neue"; */
   font-size: 3rem;
   font-size: calc(3vw + 1rem);
   color: #b26422;
@@ -53,8 +51,6 @@ h4 {
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
-/*   border-top-left-radius: 8px;
-  border-top-right-radius: 8px; */
 /*  margin-bottom: 1.5em;*/
   background: url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/c0v-members/tumblr-b8c5fe832c6001adf4361759c04160e6-12e4607c-1280_BVCmbaZPgJ.jpg') center -20px / cover no-repeat;
 }
@@ -83,14 +79,11 @@ h4 {
 }
 
 .main__header p {
-/*   font-family: 'Bebas Neue', sans-serif; */
   font-family: "bebas-neue";
   font-size: .75em;
   color: #c0c0c0;
-/*   margin: 0 0 .1rem; */
   text-align: center;
   margin: 0;
-/*   border: 1px solid #c0c0c0; */
   transform: translate(0, -80%);
 }
 
@@ -98,16 +91,13 @@ h4 {
   display: flex;
   width: 100%;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* border: 1px solid white; */
   font-family: 'Candara', sans-serif;
   color: #b9661f;
   margin-bottom: .5em;
 }
 
 .main__header .rbg_event__meta > h2 {
-  /* color: blue; */
   font-family: 'Candara', sans-serif;
   font-size: 1.5em;
   font-size: calc(1vw + .75rem);
@@ -116,7 +106,6 @@ h4 {
 }
 
 .main__header .rbg_event__meta > h3 {
-  /* color: blue; */
   font-family: 'Candara', sans-serif;
   font-size: 1.5em;
   font-size: calc(1vw + .45rem);
