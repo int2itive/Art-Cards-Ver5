@@ -184,10 +184,16 @@ h4 {
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;  
 /*   margin-bottom: 2em; */
 /*   padding-top: .5rem; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 /*   border: 1px solid #c0c0c0; */
+}
+
+.artist_display__card.scrolled {
+  opacity: 1;
 }
 
 .artist_img_wrapper, .artist_bio_wrapper {
@@ -227,6 +233,10 @@ h4 {
   width: 100%;
   height: auto;
 /*   object-position: -12px 0; */
+}
+
+.artist_display__card.scrolled .artist_img_wrapper img {
+  animation: animateImage 1.1s ease-in-out;  
 }
 
 .artist_img_title {
@@ -459,9 +469,14 @@ h4 {
   font-size: .85em;
   line-height: 1;
   width: 140px;
+  opacity: 0;
 /*   transform: translateX(1rem); */
   margin-bottom: 1em;
   border-bottom: 3px solid rgba(178,100,34, 0.6);
+}
+
+.artist_display__card.scrolled .artist_bio_wrapper > blockquote {
+  animation: quoteDrop 1.4s ease-in-out 1s forwards;  
 }
 
 .artist_bio_wrapper > blockquote:first-of-type::before {
@@ -608,6 +623,11 @@ h4 {
   
   .artist_bio_wrapper p {
     margin-left: -45px;
+    opacity: 0;
+  }
+    
+  .artist_display__card.scrolled .artist_bio_wrapper > p {
+    animation: textInMotion 1.6s ease-in-out 1s  forwards;  
   }
   
   .artist_bio_wrapper > p:last-f-type {
@@ -618,3 +638,45 @@ h4 {
     right: 10px;
   }
 }
+
+@keyframes animateImage {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes textInMotion {
+  0% {
+    opacity: 0;
+    transform: translateX(-1px);
+  }
+  50% {
+    opacity: 0.5;
+/*     transform: translateX(-25px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-28px);
+  }
+}
+
+@keyframes quoteDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 0.5;
+/*     transform: translateX(-25px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }  
+}
+
