@@ -381,7 +381,8 @@ h4 {
   grid-template-columns: 1fr;
   font-family: 'Bebas Neue';
   z-index: 10;
-  transform: translateX(-1rem);
+  padding-right: 1.0155rem;
+/*   transform: translateX(-1rem); */
 }
 
 .artist_display__meta > h3 {
