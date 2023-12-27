@@ -230,6 +230,7 @@ h4 {
 }
 
 .artist_img_wrapper img {
+  display: block;
   width: 100%;
   height: auto;
 /*   object-position: -12px 0; */
